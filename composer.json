@@ -1,0 +1,38 @@
+{
+	"name": "muvon/lcoding-standard",
+	"description": "Custom sniffs for Muvon coding standard",
+	"type": "phpcodesniffer-standard",
+	"keywords": ["phpcs", "dev"],
+	"license": "MIT",
+	"autoload": {
+		"psr-4": {
+			"Muvon\\CodingStandard\\": "src/"
+		}
+	},
+	"authors": [
+		{
+			"name": "Muvon Co. Ltd",
+			"email": "contact@muvon.io"
+		},
+		{
+			"name": "Don Hardman",
+			"email": "don.hardman@muvon.io"
+		}
+	],
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"config": {
+		"bin-dir": "bin",
+		"platform": {
+			"php": "8.1.0"
+		},
+		"allow-plugins": {
+			"dealerdirect/phpcodesniffer-composer-installer": true
+		}
+	},
+	"require": {
+		"php": "^8.1",
+		"squizlabs/php_codesniffer": "^3.7.1",
+		"dealerdirect/phpcodesniffer-composer-installer": "^0.6.2 || ^0.7"
+	}
+}
