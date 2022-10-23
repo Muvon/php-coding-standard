@@ -1,5 +1,5 @@
 {
-	"name": "muvon/lcoding-standard",
+	"name": "muvon/coding-standard",
 	"description": "Custom sniffs for Muvon coding standard",
 	"type": "phpcodesniffer-standard",
 	"keywords": ["phpcs", "dev"],
